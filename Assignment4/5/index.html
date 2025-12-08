@@ -2,23 +2,33 @@
 <html lang="en">
 
 <head>
+    <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 4 D3.js</title>
+    <title>Assignment 4</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <div id="tooltip" style="display:none"></div>
-
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://unpkg.com/d3-simple-slider"></script>
-
+    <div id="tooltip" style="display:none"></div> 
     <div class="container">
-        <h1>Assignment 4.js</h1>
-        <div id="vis"></div> 
+    <div id="controls">
+        <span class="main-heading-text">
+            How do the  <select id="Region" class="variable"></select>
+        </span>
+    <div id="controls">
+        <span class="main-heading-text">
+            on average compare to the other Regions across 12 metrics 
+        </span>
     </div>
-    <script src="https://unpkg.com/topojson@3"></script> 
+    </div>
+    <div id="vis"></div> </div>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
