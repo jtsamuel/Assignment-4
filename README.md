@@ -10,3 +10,5 @@ If the `python3` command is not available on your system, use:
 ```bash
 python -m http.server
 ```
+
+Or use the VSCode "Live Server" extension, which should automatically open the application in your browser.
